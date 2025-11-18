@@ -1,26 +1,89 @@
-@import "tailwindcss";
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+html {
+  scroll-behavior: smooth;
 }
 
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  background-color: #000;
+}
+
+/* Cinematic overlayler */
+.vignette-overlay {
+  box-shadow: inset 0 0 150px 20px rgba(0, 0, 0, 0.8);
+}
+
+.grain-overlay {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuAUnrIjd8BRRy0hVgOiBkquxmeeXb86WEdbRbGDu7VkvZyzYtqS0Nb_Ku8fdZKSB4gZY9cAojAKLXgQeC-R7Y9-3kVqF8bWaOl0DLh17slUI7Tp4yOf8h00AHlDZCaY7xotadvvDjTfDfwhHR8lo344n5JQkj3sb9BbVLa_SHnhdOsS8qahjUbCgiX9EbEyJodhoaQM0Kf_SlQ_yRcFIf5a6fXM-c3gF9uM_rlofZpRdgg3G2u5iwNtZ4kvoY59q0XedFVwtCyorbc");
+  opacity: 0.04;
+}
+
+/* Gold dust particles */
+.gold-dust-particle {
+  position: absolute;
+  background: rgba(212, 175, 55, 0.15);
+  border-radius: 50%;
+  animation: gold-dust-animation 15s linear infinite;
+  filter: blur(2px);
+}
+
+@keyframes gold-dust-animation {
+  0% {
+    transform: translateY(100vh) scale(0.5);
+    opacity: 0;
+  }
+  10% {
+    opacity: 1;
+  }
+  90% {
+    opacity: 1;
+  }
+  100% {
+    transform: translateY(-100vh) scale(1);
+    opacity: 0;
+  }
+}
+
+/* Gold glow hover */
+.gold-glow {
+  filter: drop-shadow(0 0 15px rgba(212, 175, 55, 0.4));
+}
+
+.group:hover .hover-glow {
+  filter: drop-shadow(0 0 10px rgba(212, 175, 55, 0.7));
+  transition: filter 0.3s ease-in-out;
+}
+
+/* Testimonial light sweep */
+.light-sweep-card {
+  position: relative;
+  overflow: hidden;
+}
+
+.light-sweep-card::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: -150%;
+  width: 50%;
+  height: 100%;
+  background: linear-gradient(
+    to right,
+    rgba(255, 255, 255, 0) 0%,
+    rgba(255, 255, 255, 0.05) 50%,
+    rgba(255, 255, 255, 0) 100%
+  );
+  transform: skewX(-25deg);
+  transition: left 1s ease-in-out;
+  pointer-events: none;
+}
+
+.light-sweep-card:hover::before {
+  left: 150%;
 }
