@@ -17,25 +17,11 @@ interface Damizlik {
 
 const damizliklar: Damizlik[] = [
   {
-    name: "CIHAN'S NERO DI ITALIA",
-    image: "https://lh3.googleusercontent.com/aida-public/AB6AXuC9gm-vS9CaIyigqGjekxRyoOcC-fkxly3aJgU1oVQ5TkSnYaIDj2IXRpV2ei6vVdnZjbPdkj6_aQKX37eLG-0mknmcqRutd30E1RCiD1flcbRGPjYwlBlOMf5YTjcf8a8-LY9R0JjLEmbCgYOiG0poEfeMLBssxUl5n985_WDyaK2tXF3JhlsGR4I-YPK6eAGRmn7x2AFh857riLxehxCop9kMwK3Vtp7td2HUH8WweN8_-ExMcYycFHAN0W_EF7HZPgfxoi0JD_0",
+    name: "CIHAN'S ZLATAN",
+    image: "/image/zlatan/zlatan.jpeg",
     origin: "Sırbistan İthal",
-    description: "Multi Champion unvanlarına sahip, güçlü kemik yapısı ve mükemmel karakter.",
-    tags: ["Sırbistan İthal", "Multi Champion Bloodline", "Strong Bone Structure"],
-  },
-  {
-    name: "CIHAN'S LUNA ROSSA",
-    image: "https://lh3.googleusercontent.com/aida-public/AB6AXuAfGNvk5Sw3Twp6vBPTf5VB6tOZvJ9IRCXYGGJbEGY1rQrNyCG_yzglYSWhNbMfsmVml_jqVrXGTAftQn4opROBldg5NJWhm5PZnhDB35_OeRqbCfp1utyvbC16bDaD6KwHbf7vuilrMa3izCbPqNbfej-OLtqBzi0gnwpEtOURjxJ9o4EILeAjPSX1FWN7ukkeFNtxAr9kNbXFI7_D-XZbUa6kQa8QXp3o3LjcqPnakTFO1JG7CGOQexYOcRDNtn2B_yT_vCUZvY4",
-    origin: "İtalya İthal",
-    description: "World Champion soy hattı, mükemmel mizaç ve eğitilebilirlik.",
-    tags: ["İtalya İthal", "World Champion Lineage", "Excellent Temperament"],
-  },
-  {
-    name: "Force Pride BURBERRY",
-    image: "/image/burbery/burbery.jpeg",
-    origin: "Sırbistan İthal",
-    description: "Avrupa şampiyon kan hattı, güçlü kemik yapısı ve dengeli karakter.",
-    tags: ["Sırbistan İthal", "Multi Champion Bloodline", "Strong Bone Structure"],
+    description: "Güçlü yapı, istikrarlı karakter ve mükemmel koruma içgüdüsü.",
+    tags: ["Sırbistan İthal", "Champion Bloodline", "Protective Instinct"],
   },
   {
     name: "DYNAMO",
@@ -45,18 +31,32 @@ const damizliklar: Damizlik[] = [
     tags: ["İtalya İthal", "World Champion Lineage", "Excellent Temperament"],
   },
   {
-    name: "CIHAN'S ZLATAN",
-    image: "/image/zlatan/zlatan.jpeg",
-    origin: "Sırbistan İthal",
-    description: "Güçlü yapı, istikrarlı karakter ve mükemmel koruma içgüdüsü.",
-    tags: ["Sırbistan İthal", "Champion Bloodline", "Protective Instinct"],
+    name: "Etna force pride",
+    image: "/image/etna2.jpeg",
+    origin: "Rusya İthal",
+    description: "Multi Champion unvanlarına sahip, güçlü kemik yapısı ve mükemmel karakter.",
+    tags: ["Rusya İthal"],
   },
   {
-    name: "CIHAN'S ATHENA",
-    image: "/image/burbery/burbery2.jpeg",
-    origin: "İtalya İthal",
-    description: "Elit kan hattı, dengeli mizaç ve aile ortamına uygun karakter.",
-    tags: ["İtalya İthal", "Elite Bloodline", "Family Friendly"],
+    name: "Constantine Guardians Aurora Titan Liza",
+    image: "image/aurora.jpeg",
+    origin: "Türkiye",
+    description: "Puppy Türkiye sampiyonu.",
+    tags: ["Puppy Türkiye Şampiyonu","Anne Burbery force pride","Baba Django Sangue magnefica"],
+  },
+  {
+    name: "Lucifer",
+    image: "image/luci.jpeg",
+    origin: "Türkiye",
+    description: "Zagor Oğlu.",
+    tags: ["Baba Zagor SLK"],
+  },
+  {
+    name: "Venüs",
+    image: "image/venus2.jpeg",
+    origin: "Türkiye",
+    description: "Zagor Oğlu.",
+    tags: ["Anne Burbery force pride","Baba Zagor SLK"],
   },
 ];
 

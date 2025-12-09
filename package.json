@@ -5,7 +5,7 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start",
+    "start": "next start -p 3010",
     "lint": "eslint"
   },
   "dependencies": {
@@ -21,6 +21,7 @@
     "eslint": "^9",
     "eslint-config-next": "16.0.3",
     "postcss": "^8.5.6",
+    "tailwindcss": "^3.4.13",
     "typescript": "^5"
   }
 }
