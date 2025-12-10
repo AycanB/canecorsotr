@@ -24,11 +24,18 @@ const damizliklar: Damizlik[] = [
     tags: ["Sırbistan İthal", "Champion Bloodline", "Protective Instinct"],
   },
   {
-    name: "DYNAMO",
+    name: "BONİTO",
     image: "/image/dynamo/dynamo.jpeg",
     origin: "İtalya İthal",
     description: "Dünya şampiyonu soy hattı, mükemmel mizaç ve koruma içgüdüsü.",
-    tags: ["İtalya İthal", "World Champion Lineage", "Excellent Temperament"],
+    tags: ["Bulgaristan İthal", "World Champion Lineage", "Excellent Temperament"],
+  },
+  {
+    name: "Burbery Force Pride",
+    image: "/image/burbery/burbery.jpeg",
+    origin: "İtalya İthal",
+    description: "Dünya şampiyonu soy hattı, mükemmel mizaç ve koruma içgüdüsü.",
+    tags: ["Rusya İthal", "Excellent Temperament"],
   },
   {
     name: "Etna force pride",
@@ -45,11 +52,11 @@ const damizliklar: Damizlik[] = [
     tags: ["Puppy Türkiye Şampiyonu","Anne Burbery force pride","Baba Django Sangue magnefica"],
   },
   {
-    name: "Lucifer",
+    name: "Maya",
     image: "image/luci.jpeg",
     origin: "Türkiye",
-    description: "Zagor Oğlu.",
-    tags: ["Baba Zagor SLK"],
+    description: "Baba BONİTO.",
+    tags: ["Baba BONİTO"],
   },
   {
     name: "Venüs",
