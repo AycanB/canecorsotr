@@ -30,12 +30,7 @@ const ownerPhotos: OwnerPhoto[] = [
     quote: "Luna'nın karakteri ve eğitimi harika. Programınızdan çıkan köpekler gerçekten farklı. Teşekkürler Cihan Bey.",
     image: "/image/burbery/burbery.jpeg",
   },
-  {
-    name: "Can Yıldız",
-    city: "Antalya",
-    quote: "Max ile birlikte olmak hayatımızı değiştirdi. Güvenli, sevgi dolu ve mükemmel bir arkadaş. Programınız gerçekten elit.",
-    image: "/image/burbery/burbery2.jpeg",
-  },
+
   {
     name: "Zeynep Arslan",
     city: "İstanbul",
