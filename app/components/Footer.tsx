@@ -127,10 +127,28 @@ export default function Footer() {
           </div>
         </div>
 
-        <div className="mt-12 pt-8 border-t border-white/10 text-center">
-          <p className="text-xs text-platinum-grey/50">
-            © 2024 CihanNalbant Cane Corso Programı. Tüm hakları saklıdır.
-          </p>
+        <div className="mt-12 pt-8 border-t border-white/10">
+          <div className="flex flex-col md:flex-row items-center justify-between gap-4">
+            <p className="text-xs text-platinum-grey/50">
+              © 2024 CihanNalbant Cane Corso Programı. Tüm hakları saklıdır.
+            </p>
+            <div className="flex items-center gap-3">
+              <span className="text-xs text-platinum-grey/50">Dijital Çözüm Ortağı:</span>
+              <a
+                href="https://arayuz.com.tr"
+                target="_blank"
+                rel="noreferrer"
+                className="hover:opacity-80 transition-opacity"
+                aria-label="Arayüz - Dijital Çözüm Ortağı"
+              >
+                <img
+                  src="/arayuz-logo.svg"
+                  alt="Arayüz Logo"
+                  className="h-6 w-auto"
+                />
+              </a>
+            </div>
+          </div>
         </div>
       </div>
     </footer>
